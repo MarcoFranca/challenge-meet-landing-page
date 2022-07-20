@@ -85,3 +85,18 @@
         height: 308px;
     }
 }
+
+/*celphone 425px*/
+@media screen and (max-width: 425px) {
+
+    .line-picture{
+        flex-wrap: wrap;
+    }
+
+    .meeting-content-title {
+        width: 384px;
+    }
+    .meeting-content-text {
+        width: 392px;
+    }
+}

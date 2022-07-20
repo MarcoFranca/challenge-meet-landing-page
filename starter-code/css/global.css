@@ -86,3 +86,25 @@ body{
     background-color: #b18bde;
 
 }
+
+@media screen and (max-width: 425px) {
+    .title-l{
+        font-size: 54px;
+        line-height: 64px;
+        font-weight: 900;
+        color: #27283c;
+    }
+
+    .text {
+        font-size: 18px;
+        line-height: 30px;
+    }
+
+    .text-numb{
+        font-size: 17px;
+        line-height: 30px;
+        font-weight: 700;
+        background-color: #FFFFFF;
+        color: #888898;
+    }
+}

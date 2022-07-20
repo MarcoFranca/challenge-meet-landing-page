@@ -52,3 +52,15 @@
         margin-bottom: 65px;
     }
 }
+
+/*celphone 425px*/
+@media screen and (max-width: 425px) {
+    .footer-container h2{
+        width: 80%;
+    }
+
+    .footer-container p{
+        width: 80%;
+    }
+
+}
