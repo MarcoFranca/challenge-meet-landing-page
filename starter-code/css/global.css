@@ -1,0 +1,89 @@
+body{
+    font-family: 'Red Hat Display', sans-serif;
+
+}
+
+/*titles and texts*/
+.title-l{
+    font-size: 64px;
+    line-height: 64px;
+    font-weight: 900;
+    color: #27283c;
+}
+
+.title-m{
+    font-size: 40px;
+    line-height: 44px;
+    font-weight: 900;
+    color: #26283c;
+}
+
+.title-s{
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 4px;
+    font-weight: 900;
+    text-transform: uppercase;
+    color: rgb(77,150,168);
+}
+
+.text{
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: 500;
+    color: rgb(135,135,157);
+}
+
+.text-btn{
+    font-size: 15px;
+    line-height: 26px;
+    font-weight: 600;
+}
+
+.text-numb{
+    font-size: 14px;
+    font-weight: 700;
+    background-color: #FFFFFF;
+    color: #888898;
+}
+
+/*end texts*/
+
+/*buttons*/
+
+.button1{
+    background-color: #4D96A9;
+    color: #FFFFFF;
+    height: 55px;
+    width: 180px;
+    border-radius: 35px;
+    border-style: none;
+    cursor: pointer;
+}
+
+.button1 span{
+    color: rgb(144, 226, 247);
+}
+
+.button1:hover{
+    background-color: #71c0d4;
+
+}
+
+.button2{
+    background-color: #855FB1;
+    color: #FFFFFF;
+    height: 55px;
+    width: 130px;
+    border-radius: 35px;
+    border-style: none;
+    cursor: pointer;
+}
+
+.button2 span{
+    color: #d9b8ff;
+}
+.button2:hover{
+    background-color: #b18bde;
+
+}

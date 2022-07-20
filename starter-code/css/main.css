@@ -1,0 +1,102 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 130px;
+}
+
+.horizontalLine{
+    height: 70px;
+    width: 1px;
+    border-left: #ececed solid 2px;
+}
+
+.container p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: #ececed solid 1px;
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+}
+
+.line-pecture{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    gap: 27px;
+    padding-bottom: 50px;
+}
+.meeting-pictures{
+    width: 235px;
+    height: 225px;
+    overflow: hidden;
+    background-color: #FFFFFF;
+    border-radius: 7px;
+}
+
+.meeting-pictures img{
+    width: 100%;
+}
+
+.meeting-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.meeting-content h2{
+    margin-top: 20px;
+}
+
+.meeting-content-title{
+    width: 450px;
+    margin-bottom: 40px;
+}
+
+.meeting-content-text{
+    width: 520px;
+    margin-bottom: 70px;
+}
+
+.container-numb-2{
+    position: relative;
+    bottom: -35px;
+}
+
+.footer-img{
+    background-image: url("../assets/desktop/image-footer.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+.footer-container{
+    display: flex;
+    height: 308px;
+    background-color: rgba(77, 150, 169, 0.89);
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+}
+
+.footer-container h2{
+    display: flex;
+    justify-content: center;
+    color: #FFFFFF;
+    width: 25%;
+}
+
+.footer-container p{
+    color: #FFFFFF;
+    width: 26%;
+}
+
+.footer-container button{
+    color: #FFFFFF;
+    width: 180px;
+}
