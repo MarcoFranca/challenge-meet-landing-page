@@ -1,37 +1,14 @@
-.container{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    height: 130px;
-}
-
-.horizontalLine{
-    height: 70px;
-    width: 1px;
-    border-left: #ececed solid 2px;
-}
-
-.container p{
+.line-picture{
     display: flex;
     justify-content: center;
     align-items: center;
-    border: #ececed solid 1px;
-    height: 50px;
-    width: 50px;
-    border-radius: 100%;
-}
-
-.line-pecture{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 50px;
+    margin-top: 20px;
     gap: 27px;
-    padding-bottom: 50px;
+    padding-bottom: 30px;
 }
 .meeting-pictures{
-    width: 235px;
-    height: 225px;
+    width: 200px;
+    height: 190px;
     overflow: hidden;
     background-color: #FFFFFF;
     border-radius: 7px;
@@ -59,7 +36,6 @@
 
 .meeting-content-text{
     width: 520px;
-    margin-bottom: 70px;
 }
 
 .container-numb-2{
@@ -67,36 +43,45 @@
     bottom: -35px;
 }
 
-.footer-img{
-    background-image: url("../assets/desktop/image-footer.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
 
+
+@media screen and (min-height: 760px) {
+    .meeting-pictures {
+        width: 235px;
+        height: 225px;
+    }
+
+    .line-picture{
+        margin-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .meeting-content-text{
+        margin-bottom: 70px;
+    }
+
+    .footer-container{
+        height: 308px;
+    }
 }
 
-.footer-container{
-    display: flex;
-    height: 308px;
-    background-color: rgba(77, 150, 169, 0.89);
-    align-items: center;
-    justify-content: center;
-    gap: 100px;
-}
+/*ipad*/
+@media screen and (max-width: 820px) {
+    .meeting-pictures {
+        width: 167px;
+        height: 158px;
+    }
 
-.footer-container h2{
-    display: flex;
-    justify-content: center;
-    color: #FFFFFF;
-    width: 25%;
-}
+    .line-picture{
+        margin-top: 0;
+        padding-bottom: 50px;
+    }
 
-.footer-container p{
-    color: #FFFFFF;
-    width: 26%;
-}
+    .meeting-content-text{
+        margin-bottom: 70px;
+    }
 
-.footer-container button{
-    color: #FFFFFF;
-    width: 180px;
+    .footer-container{
+        height: 308px;
+    }
 }

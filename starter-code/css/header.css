@@ -1,9 +1,14 @@
-header{
+.header{
+    display: flex;
+    flex-direction: column;
     overflow: hidden;
+    height: 100vh;
 }
+
+
 .logo{
     display: flex;
-    height: 180px;
+    height: 100px;
     justify-content: center;
     align-items: center;
 }
@@ -13,8 +18,8 @@ header{
     flex-direction: row;
     justify-content: space-between;
     margin-top: 25px;
-    height: calc(100vh - 170px);
-    width: 100vw;
+    height: 55%;
+
 }
 
 .left-img{
@@ -25,7 +30,8 @@ header{
     left: -33px;
     top: -45px;
     width: 28%;
-    height: 100%;
+    height: 55%;
+    min-height: 303px;
 }
 
 .header-content{
@@ -34,7 +40,8 @@ header{
     align-items: center;
     width: 40%;
     text-align: center;
-    height: calc(100% - 55px);
+    height: 55%;
+    min-height: 303px;
 }
 
 .header-content > h1{
@@ -43,7 +50,7 @@ header{
 }
 
 .header-content > p{
-    width: 550px;
+    width: 500px;
     margin-top: 30px;
     background-color: white;
     text-align: center;
@@ -62,6 +69,68 @@ header{
     position: relative;
     right: -30px;
     width: 28%;
-    height: 100%;
+    height: 55%;
+    min-height: 303px;
 }
 
+.line-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.horizontalLine{
+    height: 70px;
+    width: 1px;
+    border-left: #ececed solid 2px;
+}
+
+.line-container p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: #ececed solid 1px;
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+}
+
+@media screen and (min-height: 800px) {
+    .logo{
+        height: 180px;
+    }
+
+}
+
+/*ipad 820px*/
+
+@media screen and (max-width: 820px) {
+    .first-container{
+        flex-direction: column;
+        align-items: center;
+        margin-top: 25px;
+        height: 63%;
+
+    }
+    .left-img{
+        background-image: url("../assets/tablet/image-hero.png");
+        width: 100%;
+        height: 303px;
+        position: static;
+    }
+
+    .header-content{
+        width: 60%;
+        margin-top: 65px;
+        height: 55%;
+    }
+    .right-img{
+        display: none;
+    }
+    .header-content > p{
+        margin-bottom: 30px;
+    }
+
+
+}
